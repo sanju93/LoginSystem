@@ -1,0 +1,393 @@
+#container{
+    background-color: whitesmoke;
+   
+  }
+  #form{
+      display: flex;
+      flex-direction: column;
+  }
+  #container h3{
+      text-align: center;
+  }
+  #form label{
+      font-weight: 600;
+  }
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width : 576px){
+    #container{
+        height: 70%;
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 1px;
+        box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+      
+     
+      
+    }
+
+    .signIn{
+        padding: 1%;
+        width: 70%;
+      }
+
+      #form div{
+        margin-top : 15px;
+        margin-bottom: 20px; 
+      }
+
+      #form label{
+ 
+        font-size: small;
+      }
+
+      
+  #form input:focus{
+    outline: none;
+    border : 2px solid darkmagenta;
+    border-radius: 7px;
+  }
+
+  .text_fields{
+    margin-left: 0%
+  }
+
+  #name{
+    margin-left:17.7%;
+  }
+
+  #email{
+    margin-left:18.4%;
+  }
+
+  #password{
+    margin-left: 12.5%;
+    
+  }
+  #confirm_password{
+    width:68%;
+  }
+
+  #submit_div input{
+    width : 40%;
+    padding: 1%;
+    font-size: larger;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+#submit_div input:hover{
+ color: lightgrey;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 577px) and (max-width : 768px){
+    #container{
+        height: 70%;
+        width: 80%;
+        margin-top: 150px;
+        margin-left: 80px;
+        box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+      
+     
+      
+    }
+
+    .signIn{
+        padding: 1%;
+        width: 70%;
+      }
+
+      #form div{
+        margin-top : 15px;
+        margin-bottom: 8px; 
+      }
+
+      #form label{
+ 
+        font-size: large;
+      }
+
+      
+  #form input:focus{
+    outline: none;
+    border : 2px solid darkmagenta;
+    border-radius: 7px;
+  }
+
+  .text_fields{
+    margin-left: 6%
+  }
+
+  #name{
+    margin-left:17.7%;
+  }
+
+  #email{
+    margin-left:18.4%;
+  }
+
+  #password{
+    margin-left: 12.5%;
+  }
+
+  #submit_div input{
+    width : 40%;
+    padding: 1%;
+    font-size: larger;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+#submit_div input:hover{
+ color: lightgrey;
+}
+
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width : 992px){
+
+    #container{
+        height: 70%;
+        width: 70%;
+        margin-top: 150px;
+        margin-left: 130px;
+        box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+      
+     
+      
+    }
+
+    .signIn{
+        padding: 1%;
+        width: 70%;
+      }
+
+      #form div{
+        margin-top : 15px;
+        margin-bottom: 8px; 
+      }
+
+      #form label{
+ 
+        font-size: large;
+      }
+
+      
+  #form input:focus{
+    outline: none;
+    border : 2px solid darkmagenta;
+    border-radius: 7px;
+  }
+
+  .text_fields{
+    margin-left: 6%
+  }
+
+  #name{
+    margin-left:18%;
+  }
+
+  #email{
+    margin-left:19%;
+  }
+
+  #password{
+    margin-left: 13%;
+  }
+
+  #submit_div input{
+    width : 40%;
+    padding: 1%;
+    font-size: larger;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+#submit_div input:hover{
+ color: lightgrey;
+}
+
+
+}
+
+
+@media only screen and (min-width: 993px) and (max-width : 1200px){
+
+    #container{
+        height: 50%;
+        width: 60%;
+        margin-top: 40px;
+        margin-left: 235px;
+        box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+      
+     
+      
+    }
+
+    .signIn{
+        padding: 1%;
+        width: 70%;
+      }
+
+      #form div{
+        margin-top : 15px;
+        margin-bottom: 8px; 
+      }
+
+      #form label{
+ 
+        font-size: large;
+      }
+
+      
+  #form input:focus{
+    outline: none;
+    border : 2px solid darkmagenta;
+    border-radius: 7px;
+  }
+
+  .text_fields{
+    margin-left: 6%
+  }
+
+  #name{
+    margin-left:16.5%;
+  }
+
+  #email{
+    margin-left:17.4%;
+  }
+
+  #password{
+    margin-left: 12%;
+  }
+
+  #submit_div input{
+    width : 40%;
+    padding: 1%;
+    font-size: larger;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+#submit_div input:hover{
+ color: lightgrey;
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width : 1400px){
+
+
+    #container{
+        height: 40%;
+        width: 60%;
+        margin-top: 100px;
+        margin-left: 260px;
+        box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+      
+     
+      
+    }
+
+    .signIn{
+        padding: 1%;
+        width: 70%;
+      }
+
+      #form div{
+        margin-top : 15px;
+        margin-bottom: 8px; 
+      }
+
+      #form label{
+ 
+        font-size: large;
+      }
+
+      
+  #form input:focus{
+    outline: none;
+    border : 2px solid darkmagenta;
+    border-radius: 7px;
+  }
+
+  .text_fields{
+    margin-left: 6%
+  }
+
+  #name{
+    margin-left:13.6%;
+  }
+
+  #email{
+    margin-left:14.2%;
+  }
+
+  #password{
+    margin-left: 9.7%;
+  }
+
+
+  #submit_div input{
+    width : 40%;
+    padding: 1%;
+    font-size: larger;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+#submit_div input:hover{
+ color: lightgrey;
+}
+
+
+
+}

@@ -1,0 +1,720 @@
+#container{
+    background-color: whitesmoke;
+   
+  }
+  #form{
+      display: flex;
+      flex-direction: column;
+  }
+  #container h3{
+      text-align: center;
+  }
+  #form label{
+      font-weight: 600;
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width : 576px){
+  
+      #container{
+          height: 80%;
+          width: 100%;
+          margin-top: 10px;
+       
+        
+      }
+  
+      #form{
+          margin-left: 26px;
+          margin-top: 5px;
+      }
+  
+    .signIn{
+      padding: 2%;
+      width: 90%;
+    }
+  
+    #form div{
+      margin-top : 20px;
+      margin-bottom: 10px; 
+    }
+  
+    #form input:focus{
+      outline: none;
+      border : 2px solid darkmagenta;
+      border-radius: 7px;
+    }
+  
+    #submit_div input{
+         width : 90%;
+         padding: 2%;
+         font-size: larger;
+         background-color: darkmagenta;
+         border: 2px solid darkmagenta;
+         border-radius: 4px;
+         color: white;
+         font-weight: bolder;
+         margin-bottom: 5%;
+    }
+  
+    #form label{
+      margin-bottom:  3%;
+      font-size: large;
+    }
+  
+    #new_user{
+      text-align: center;
+    }
+    
+    #create_btn{
+      margin-left: 5%;
+      background-color : darkmagenta;
+      border:2px solid darkmagenta;
+      color:white;
+      border-radius: 5px;
+      padding: 3%;
+      font-weight: 500;
+      width:90%;
+      font-size: larger;
+      margin-bottom: 7%;
+     
+    
+    }
+    #create_btn:hover{
+      color:lightgrey;
+      
+    }
+  
+    .login_methods{
+      border: 2px solid white;
+      margin-left: 7%;
+    
+      padding: 1%;
+      margin-bottom: 4%;
+      cursor: pointer;
+      background-color: white;
+      width: 85%;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 12%;
+      width: 12%;
+  
+    }
+    .login_methods span{
+      font-weight: 500;
+      font-size: large;
+      color: black;
+    }
+  
+  
+   
+  
+    
+  
+  }
+  
+  
+  @media only screen and (min-width: 577px) and (max-width : 768px) {
+  
+  
+      #container{
+          height: 80%;
+          width: 80%;
+          margin-top: 150px;
+          margin-left: 76px;
+          box-shadow: 0 0 0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+          border-radius: 3px;
+         
+       
+        
+      }
+      #container h3{
+          margin-top: 5%;
+      }
+  
+      #form{
+          margin-left:  60px;
+          margin-top: 40px;
+     
+      }
+      #email {
+  
+          margin-left: 5.3%;
+  
+      }
+  
+    .signIn{
+      padding: 2%;
+      width: 70%;
+    }
+  
+    #form div{
+      margin-top : 20px;
+      margin-bottom: 20px; 
+    }
+  
+    #form input:focus{
+      outline: none;
+      border : 2px solid darkmagenta;
+      border-radius: 7px;
+    }
+  
+    #submit_div input{
+         width : 20%;
+         padding: 2%;
+         font-size: larger;
+         background-color: darkmagenta;
+         border: 2px solid darkmagenta;
+         border-radius: 4px;
+         color: white;
+         font-weight: bolder;
+         margin-left: 35%;
+    }
+  
+    #form label{
+      margin-bottom:  5%;
+      font-size: larger;
+    }
+  
+    #new_user{
+      text-align: center;
+    }
+    
+    #create_btn{
+      margin-left: 33%;
+      background-color : darkmagenta;
+      border:2px solid darkmagenta;
+      color:white;
+      border-radius: 5px;
+      padding: 1%;
+      font-weight: 500;
+     
+    
+    }
+    #create_btn:hover{
+      color:lightgrey;
+      
+    }
+  
+    .login_methods{
+      border: 2px solid white;
+      margin-left: 30%;
+      padding: 1%;
+      margin-right: 28%;
+      margin-bottom: 2%;
+      cursor: pointer;
+      background-color: white;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 9%;
+      width: 9%;
+  
+    }
+    .login_methods span{
+      font-weight: 500;
+      font-size: large;
+      color: black;
+    }
+  
+  
+    .login_methods{
+      border: 2px solid white;
+      margin-left: 30%;
+      padding: 1%;
+      margin-right: 28%;
+      margin-bottom: 2%;
+      cursor: pointer;
+      background-color: white;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 9%;
+      width: 9%;
+  
+    }
+    .login_methods span{
+      font-weight: 500;
+      font-size: large;
+      color: black;
+    }
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  @media only screen and (min-width: 769px) and (max-width : 992px) {
+  
+  
+      #container{
+          height: 80%;
+          width: 80%;
+          margin-top: 250px;
+          margin-left: 80px;
+          box-shadow: 0 0 0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+          border-radius: 6px;
+        
+       
+        
+      }
+      #container h3{
+          margin-top: 5%;
+      }
+  
+      #form{
+          margin-left:  60px;
+          margin-top: 40px;
+     
+      }
+      #email {
+  
+          margin-left: 5.2%;
+  
+      }
+  
+    .signIn{
+      padding: 1%;
+      width: 70%;
+    }
+  
+    #form div{
+      margin-top : 20px;
+      margin-bottom: 15px; 
+    }
+  
+    #form input:focus{
+      outline: none;
+      border : 2px solid darkmagenta;
+      border-radius: 7px;
+    }
+  
+    #submit_div input{
+         width : 20%;
+         padding: 2%;
+         font-size: larger;
+         background-color: darkmagenta;
+         border: 2px solid darkmagenta;
+         border-radius: 4px;
+         color: white;
+         font-weight: bolder;
+         margin-left: 35%;
+    }
+  
+    #form label{
+      margin-bottom:  2%;
+      font-size: larger;
+    }
+  
+    #new_user{
+      text-align: center;
+    }
+    
+    #create_btn{
+      margin-left: 33%;
+      background-color : darkmagenta;
+      border:2px solid darkmagenta;
+      color:white;
+      border-radius: 5px;
+      padding: 1%;
+      font-weight: 500;
+      margin-bottom: 2%;
+     
+    
+    }
+    #create_btn:hover{
+      color:lightgrey;
+      
+    }
+  
+    .login_methods{
+      border: 2px solid white;
+      margin-left: 30%;
+      padding: 1%;
+      margin-right: 28%;
+      margin-bottom: 2%;
+      cursor: pointer;
+      background-color: white;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 9%;
+      width: 9%;
+  
+    }
+    .login_methods span{
+      font-weight: 500;
+      font-size: large;
+      color: black;
+    }
+  
+  
+    .login_methods{
+      border: 2px solid white;
+      margin-left: 30%;
+      padding: 1%;
+      margin-right: 28%;
+      margin-bottom: 2%;
+      cursor: pointer;
+      background-color: white;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 9%;
+      width: 9%;
+  
+    }
+    .login_methods span{
+      font-weight: 500;
+      font-size: large;
+      color: black;
+    }
+  
+  
+      
+  
+  }
+  
+  
+  @media only screen and (min-width: 993px) and (max-width : 1200px) {
+  
+  
+      #container{
+          height: 80%;
+          width: 80%;
+          margin-top: 60px;
+          margin-left: 100px;
+          box-shadow: 0 0 0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+          border-radius: 3px;
+         
+       
+        
+      }
+      #container h3{
+          margin-top: 5%;
+      }
+  
+      #form{
+          margin-left:  60px;
+          margin-top: 40px;
+     
+      }
+      #email {
+  
+          margin-left: 5.3%;
+  
+      }
+  
+    .signIn{
+      padding: 2%;
+      width: 70%;
+    }
+  
+    #form div{
+      margin-top : 20px;
+      margin-bottom: 20px; 
+    }
+  
+    #form input:focus{
+  
+      outline: none;
+      border : 2px solid darkmagenta;
+      border-radius: 7px;
+  
+    }
+  
+    #submit_div input{
+         width : 20%;
+         padding: 2%;
+         font-size: larger;
+         background-color: darkmagenta;
+         border: 2px solid darkmagenta;
+         border-radius: 4px;
+         color: white;
+         font-weight: bolder;
+         margin-left: 35%;
+    }
+  
+    #form label{
+      margin-bottom:  5%;
+      font-size: larger;
+      font-weight: 500;
+    }
+  
+    #new_user{
+      text-align: center;
+    }
+    
+    #create_btn{
+  
+      margin-left: 37%;
+      background-color : darkmagenta;
+      border:2px solid darkmagenta;
+      color:white;
+      border-radius: 5px;
+      padding: 1%;
+      font-weight: 500;
+     
+    
+    }
+    #create_btn:hover{
+  
+      color:lightgrey;
+      
+    }
+  
+    .login_methods {
+  
+      border: 2px solid white;
+      margin-left: 30%;
+      padding: 1%;
+      margin-right: 28%;
+      margin-bottom: 2%;
+      cursor: pointer;
+      background-color: white;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 9%;
+      width: 9%;
+  
+    }
+    .login_methods span{
+      font-weight: 500;
+      font-size: large;
+      color: black;
+    }
+  
+   
+      
+  
+  }
+  
+  
+  @media only screen and (min-width: 1201px)  and (max-width : 1400px) {
+
+ 
+  
+      #container{
+  
+        
+          height: 50%;
+          width: 70%;
+          margin-top: 100px;
+          margin-left: 200px;
+          box-shadow: 0 0 0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+          border-radius: 6px;
+        
+       
+        
+      }
+      #container h3{
+          margin-top: 0%;
+      }
+  
+      #form{
+          margin-left:  100px;
+          margin-top: 10px;
+     
+      }
+      #email {
+  
+          margin-left: 8%;
+  
+      }
+    #password{
+      margin-left: 3.5%;
+    }
+  
+    .signIn{
+      padding: 1%;
+      width: 70%;
+    }
+  
+    #form div{
+      margin-top : 10px;
+      margin-bottom: 8px; 
+    }
+  
+    #form input:focus{
+      outline: none;
+      border : 2px solid darkmagenta;
+      border-radius: 7px;
+    }
+  
+    #submit_div input{
+         width : 20%;
+         padding: 1%;
+         font-size: larger;
+         background-color: darkmagenta;
+         border: 2px solid darkmagenta;
+         border-radius: 4px;
+         color: white;
+         font-weight: 500;
+         margin-left: 33%;
+         margin-bottom: 1%;
+         cursor: pointer;
+    }
+  
+    #submit_div input:hover{
+      color: lightgrey;
+    }
+  
+    #form label{
+      margin-bottom:  1%;
+      font-size: larger;
+      font-weight: 600;
+    }
+  
+    #new_user{
+      text-align: center;
+    }
+    
+    .create_btn{
+     
+      margin-left: 23%;
+      background-color : darkmagenta;
+      border:2px solid darkmagenta;
+      color:white;
+      border-radius: 5px;
+      padding: 1%;
+      font-weight: 500;
+      margin-bottom: 1%;
+      cursor: pointer;
+  
+     
+    
+    }
+    .create_btn:hover{
+      color:lightgrey;
+      
+    }
+    #sign_up{
+      margin-left : 24%;
+    }
+    .login_methods{
+  
+  
+      border: 2px solid white;
+      margin-left: 30%;
+      padding: 1%;
+      margin-right: 28%;
+      margin-bottom: 1%;
+      cursor: pointer;
+      background-color: white;
+  
+      
+    }
+  
+    .login_methods span:hover{
+      color : lightgrey;
+    }
+  
+    .login_methods a{
+      text-decoration: none;
+    }
+  
+    
+  
+    .login_methods img{
+  
+      height: 9%;
+      width: 9%;
+  
+    }
+    .login_methods span{
+      font-weight: 300;
+      font-size:medium;
+      color: black;
+      font-family:cursive;
+    }
+  
+    
+  
+  
+  }
